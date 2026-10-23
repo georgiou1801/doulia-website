@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doulia · Small jobs, done by people nearby</title>
+<meta name="description" content="Doulia connects people in Cyprus who need a hand with people who want to earn. Now on iPhone and Android.">
+<meta property="og:title" content="Doulia · Small jobs, done by people nearby">
+<meta property="og:description" content="Post a small job or earn near you in Cyprus. Now on the App Store and Google Play.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Doulia">
+<meta property="og:url" content="https://doulia.me/">
+<meta property="og:image" content="https://doulia.me/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Doulia: small jobs, done by people nearby">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A6E8A">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 96 96'><rect width='96' height='96' rx='24' fill='%230A6E8A'/><path d='M48 80c-12-14-22-24-22-38a22 22 0 0 1 44 0c0 14-10 24-22 38z' fill='%23fff'/><path d='M38 42l7 7 13-14' fill='none' stroke='%230A6E8A' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>html{scroll-behavior:smooth}body{margin:0;background:#fff}
+.site{--a:#0A6E8A;--ad:#07526A;--as:#DCEBEF;--ink:#1B1F24;--is:#3D4550;--mu:#5B6470;--bo:#D5DAE0;--bs:#E3E6EA;--su:#F1F3F5;--card:#fff;
+  container-type:inline-size;font-family:'DM Sans',system-ui,-apple-system,sans-serif;color:var(--ink);background:#fff;line-height:1.5;-webkit-font-smoothing:antialiased}
+.site *{box-sizing:border-box}
+.site a{color:inherit;text-decoration:none}
+.site h1,.site h2,.site h3,.site h4,.site p{margin:0}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.narrow{max-width:820px}
+.ic{flex:none;display:block}
+.nav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--bs)}
+.nav-in{display:flex;align-items:center;gap:24px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:700;letter-spacing:-.5px}
+.brand em{font-style:normal;font-weight:400;color:var(--a)}
+.links{display:flex;gap:28px;margin-left:auto;font-size:15px;font-weight:500;color:var(--is)}
+.links a:hover{color:var(--a)}
+.nav-r{display:flex;align-items:center;gap:14px}
+.lang{display:flex;background:var(--su);border-radius:999px;padding:3px}
+.lang button{font:inherit;font-size:13px;font-weight:600;border:0;background:transparent;color:var(--mu);border-radius:999px;padding:6px 11px;cursor:pointer;min-height:32px}
+.lang button.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:12px;background:var(--a);color:#fff !important;font-weight:600;font-size:15px}
+.btn:hover{background:var(--ad)}
+.hero{background:linear-gradient(180deg,#F2F8FA 0%,#fff 100%);overflow:hidden}
+.hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding-top:72px;padding-bottom:72px}
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--as);color:var(--ad);font-weight:700;font-size:14px;padding:7px 14px;border-radius:999px}
+.dot{width:8px;height:8px;border-radius:4px;background:#2F9E5B;box-shadow:0 0 0 4px rgba(47,158,91,.18)}
+.hero h1{font-size:60px;line-height:1.05;letter-spacing:-1.8px;font-weight:700;margin:20px 0 18px}
+.lead{font-size:19px;color:var(--is);max-width:560px}
+.stores{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.store{display:inline-flex;align-items:center;gap:10px;background:#111418;color:#fff !important;border-radius:14px;padding:10px 18px 10px 14px;min-height:58px;min-width:190px}
+.store:hover{background:#000}
+.store-ic{color:#fff}
+.store-txt{display:flex;flex-direction:column;line-height:1.15}
+.store-txt small{font-size:12px;opacity:.85}
+.store-txt b{font-size:20px;font-weight:600;letter-spacing:-.2px;white-space:nowrap}.store-txt small{white-space:nowrap}
+.site .note{margin-top:16px;font-size:14px;color:var(--mu)}
+.hero-art{display:flex;justify-content:center;position:relative}
+.hero-art:before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,#CFE6EC 0%,rgba(207,230,236,0) 70%);top:40px}
+.phone{position:relative;text-align:left;width:300px;height:610px;border-radius:44px;background:#0F1215;padding:12px;box-shadow:0 30px 60px -20px rgba(7,82,106,.45),0 0 0 1px rgba(0,0,0,.08)}
+.phone-in{width:100%;height:100%;border-radius:34px;background:var(--su);overflow:hidden;display:flex;flex-direction:column;font-size:13px}
+.m-status{display:flex;justify-content:space-between;padding:10px 22px 4px;font-size:12px;font-weight:600;background:var(--a);color:#fff}
+.m-hero{background:var(--a);color:#fff;padding:6px 16px 16px;display:flex;flex-direction:column;gap:8px}
+.m-row{display:flex;justify-content:space-between;align-items:center;font-size:17px}
+.m-bell{position:relative}.m-bell i{position:absolute;top:-6px;right:-7px;background:#C0392B;color:#fff;font-style:normal;font-size:9px;font-weight:700;border-radius:8px;min-width:15px;height:15px;display:flex;align-items:center;justify-content:center}
+.m-city{display:inline-flex;align-items:center;gap:4px;align-self:flex-start;background:rgba(255,255,255,.18);border-radius:999px;padding:3px 10px;font-weight:600;font-size:12px}
+.m-search{display:flex;align-items:center;gap:8px;background:#fff;color:var(--mu);border-radius:12px;padding:9px 12px}
+.m-body{flex:1;padding:12px;display:flex;flex-direction:column;gap:8px;position:relative}
+.m-sec{font-weight:700;font-size:14px;padding:2px 2px 0}
+.m-job{display:flex;gap:10px;align-items:center;background:#fff;border:1px solid var(--bs);border-radius:16px;padding:10px}
+.m-jic{width:38px;height:38px;border-radius:12px;background:var(--as);color:var(--ad);display:flex;align-items:center;justify-content:center;flex:none}
+.m-jt{flex:1;display:flex;flex-direction:column;min-width:0}.m-jt b{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.m-jt small,.m-jp small{color:var(--mu);font-size:11px;display:flex;align-items:center;gap:3px}
+.m-jp{display:flex;flex-direction:column;align-items:flex-end}.m-jp b{color:var(--a);font-size:15px}.m-jp small{color:var(--ad);font-weight:700}
+.m-tiny{display:inline-block}
+.m-toast{margin-top:auto;display:flex;gap:10px;align-items:center;background:#1B1F24;color:#fff;border-radius:16px;padding:11px 12px;box-shadow:0 10px 24px -8px rgba(0,0,0,.4)}
+.m-toast span{display:flex;flex-direction:column}.m-toast small{opacity:.75;font-size:11px}
+.m-tabs{display:flex;justify-content:space-around;background:#fff;border-top:1px solid var(--bs);padding:10px 8px 16px;color:var(--mu)}.m-tabs .on{color:var(--a)}
+.facts{position:relative;z-index:1;margin-top:-40px}
+.facts-in{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--bs);border-radius:20px;box-shadow:0 12px 32px -18px rgba(7,82,106,.35)}
+.fact{display:flex;align-items:center;gap:14px;padding:24px 28px}
+.fact + .fact{border-left:1px solid var(--bs)}
+.fact b{display:block;font-size:28px;line-height:1.1;font-weight:700;color:var(--ink);letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.fact b span{font-size:inherit;color:inherit}
+.fact > div > span{display:block;margin-top:2px;font-size:14px;color:var(--mu)}
+.fic{width:44px;height:44px;flex:none;border-radius:12px;background:var(--as);color:var(--ad);display:flex;align-items:center;justify-content:center}
+.sec{padding:88px 0}.sec.alt{background:var(--su)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--a);margin-bottom:10px !important}
+.sec h2,.cta h2{font-size:40px;line-height:1.12;letter-spacing:-1px;font-weight:700;max-width:720px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px}
+.safe{margin-top:0;align-items:start;gap:48px}
+.card{background:#fff;border:1px solid var(--bs);border-radius:24px;padding:32px}
+.card.accent{background:#F2F8FA;border-color:#CFE3E9}
+.card h3{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:700;color:var(--ad);margin-bottom:22px}
+.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:20px}
+.steps li{display:flex;gap:16px}
+.num{flex:none;width:34px;height:34px;border-radius:17px;background:var(--a);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.steps h4{font-size:17px;font-weight:700;margin-bottom:4px}
+.steps p{font-size:15px;color:var(--is)}
+.grid{display:grid;gap:16px;margin-top:40px}
+.cats{grid-template-columns:repeat(3,1fr)}
+.cat{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--bs);border-radius:20px;padding:18px}
+.cat b{display:block;font-size:17px;font-weight:700}.cat small{font-size:14px;color:var(--mu)}
+.cic{width:48px;height:48px;border-radius:14px;background:var(--as);color:var(--ad);display:flex;align-items:center;justify-content:center;flex:none}
+.cic.sm{width:38px;height:38px;border-radius:12px}
+.feats{grid-template-columns:repeat(3,1fr)}
+.feat{background:#fff;border:1px solid var(--bs);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.feat b{font-size:17px;font-weight:700;margin-top:6px}.feat p{font-size:15px;color:var(--is)}
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.checks li{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--bs);border-radius:16px;padding:14px 16px;font-size:16px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:32px}
+.site .sec-sub{font-size:17px;color:var(--is);max-width:380px}
+.cities{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.city{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--bs);border-radius:20px;padding:20px}
+.city-t{flex:1;min-width:0;display:flex;flex-direction:column}
+.city-t b{font-size:18px;font-weight:700;color:var(--ink)}
+.city-t small{font-size:14px;color:var(--mu)}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#2F6B3A;background:#E5F2E7;border-radius:999px;padding:4px 10px}
+.live i{width:7px;height:7px;border-radius:4px;background:#2F9E5B}
+.city.more{border-style:dashed;border-color:var(--bo);background:transparent}
+.city.more:hover{border-color:var(--a)}
+.city.more .fic{background:var(--su);color:var(--mu)}
+.faq{display:flex;flex-direction:column;gap:12px;margin-top:32px}
+.faq details{background:#fff;border:1px solid var(--bs);border-radius:16px;padding:0 20px}
+.faq summary{cursor:pointer;list-style:none;font-size:17px;font-weight:700;padding:18px 0;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";font-size:24px;font-weight:400;color:var(--a);line-height:1}
+.faq details[open] summary:after{content:"−"}
+.faq details p{padding:0 0 18px;font-size:16px;color:var(--is)}
+.cta{background:var(--a);color:#fff;padding:88px 0;text-align:center}
+.cta-in{display:flex;flex-direction:column;align-items:center;gap:16px}
+.cta-logo svg rect{fill:#fff}.cta-logo svg path:first-of-type{fill:var(--a)}.cta-logo svg path:last-of-type{stroke:#fff}
+.site .cta p{font-size:18px;opacity:.9;max-width:560px}
+.cta h2{max-width:none}
+.cta .stores{justify-content:center;margin-top:12px}
+.cta .store{background:#fff;color:var(--ink) !important}.cta .store .store-ic{color:var(--ink)}
+.foot{background:#0F1215;color:#C4CBD2;padding:48px 0}
+.foot-in{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start}
+.foot .brand{color:#fff}.foot-brand p{margin-top:10px !important;font-size:15px}
+.foot-links{display:flex;gap:24px;font-size:15px}.foot-links a:hover{color:#fff}
+.copy{grid-column:1/-1;font-size:13px;color:#9AA4AE;border-top:1px solid #2B3139;padding-top:20px !important}
+.site a:focus-visible,.site button:focus-visible,.site summary:focus-visible{outline:3px solid #86CDE0;outline-offset:2px;border-radius:10px}
+@container (max-width: 980px){
+  .links{display:none}
+  .hero-in{grid-template-columns:1fr;text-align:center;padding-top:48px;padding-bottom:56px;gap:40px}
+  .hero-txt{display:flex;flex-direction:column;align-items:center}
+  .lead{margin:0 auto}
+  .stores{justify-content:center}
+  .hero h1{font-size:44px;letter-spacing:-1.2px}
+  .facts{margin-top:-28px}
+  .facts-in{grid-template-columns:repeat(2,1fr)}
+  .fact:nth-child(3){border-left:0}
+  .fact:nth-child(n+3){border-top:1px solid var(--bs)}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:12px}
+  .cities{grid-template-columns:repeat(2,1fr)}
+  .two{grid-template-columns:1fr}
+  .cats,.feats{grid-template-columns:repeat(2,1fr)}
+}
+@container (max-width: 620px){
+  .wrap{padding-left:16px;padding-right:16px}
+  .nav-in{gap:10px;height:60px}
+  .brand{font-size:19px}.brand svg{width:30px;height:30px}
+  .nav .btn{display:none}
+  .hero h1{font-size:36px;letter-spacing:-1px}
+  .lead{font-size:17px}
+  .store{min-width:0;flex:1 1 150px;padding:10px 12px}
+  .store-txt b{font-size:17px}
+  .store-txt small{font-size:11px}
+  .sec{padding:60px 0}.cta{padding:64px 0}
+  .sec h2,.cta h2{font-size:30px;letter-spacing:-.6px}
+  .cats,.feats{grid-template-columns:1fr}
+  .card{padding:22px}
+  .fact{padding:16px;gap:10px}
+  .fact b{font-size:22px}
+  .fact > div > span{font-size:13px}
+  .fic{width:36px;height:36px;border-radius:10px}
+  .cities{grid-template-columns:1fr}
+  .foot-in{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="site">
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="#top" aria-label="Doulia home"><svg width="36" height="36" viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="24" fill="#0A6E8A"/><path d="M48 80c-12-14-22-24-22-38a22 22 0 0 1 44 0c0 14-10 24-22 38z" fill="#fff"/><path d="M38 42l7 7 13-14" fill="none" stroke="#0A6E8A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>doulia<em>.me</em></span></a>
+  <nav class="links" aria-label="Main"><a href="#how"><span data-i18n="nav.how">How it works</span></a><a href="#jobs"><span data-i18n="nav.earn">Earn</span></a><a href="#safety"><span data-i18n="nav.safety">Safety</span></a><a href="#faq"><span data-i18n="nav.faq">FAQ</span></a></nav>
+  <div class="nav-r"><div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" class="on">EN</button><button type="button" data-lang="el">ΕΛ</button></div>
+  <a class="btn" href="#download"><span data-i18n="nav.get">Get the app</span></a></div>
+</div></header>
+
+<section class="hero" id="top"><div class="wrap hero-in">
+  <div class="hero-txt">
+    <span class="pill"><span class="dot"></span><span data-i18n="hero.pill">Now on iPhone & Android</span></span>
+    <h1><span data-i18n="hero.h1">Small jobs, done by people nearby.</span></h1>
+    <p class="lead"><span data-i18n="hero.p">Doulia connects people in Cyprus who need a hand with people who want to earn. Dog walks, moving boxes, garden tidy-ups, small repairs and more, agreed and done in your neighbourhood.</span></p>
+    <div class="stores">
+  <a class="store" href="#app-store" data-store="ios" aria-label="Download Doulia on the App Store">
+    <svg class="store-ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg><span class="store-txt"><small><span data-i18n="store.ios.small">Download on the</span></small><b><span data-i18n="store.ios.big">App Store</span></b></span></a>
+  <a class="store" href="#google-play" data-store="android" aria-label="Get Doulia on Google Play">
+    <svg class="store-ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span class="store-txt"><small><span data-i18n="store.and.small">Get it on</span></small><b><span data-i18n="store.and.big">Google Play</span></b></span></a>
+</div>
+    <p class="note"><span data-i18n="hero.note">Free to download · English, Ελληνικά, Русский, العربية</span></p>
+  </div>
+  <div class="hero-art"><div class="phone" aria-hidden="true"><div class="phone-in">
+  <div class="m-status"><span>9:41</span><span>●●● ▮</span></div>
+  <div class="m-hero"><div class="m-row"><b><span data-i18n="m.hello">Hi Andreas 👋</span></b><span class="m-bell"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4z"/><path d="M10 20a2 2 0 004 0"/></svg><i>2</i></span></div>
+    <span class="m-city"><svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0114 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span data-i18n="m.city">Larnaca</span></span>
+    <div class="m-search"><svg class="ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span data-i18n="m.search">Search jobs</span></div></div>
+  <div class="m-body">
+    <div class="m-sec"><span data-i18n="m.near">Near you</span></div>
+    <div class="m-job"><span class="m-jic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="10" r="2"/><circle cx="17" cy="10" r="2"/><circle cx="10" cy="6" r="2"/><circle cx="14" cy="6" r="2"/><path d="M12 12c-3 0-5 3-5 5 0 1.5 1.2 2.5 2.6 2.2l2.4-.5 2.4.5c1.4.3 2.6-.7 2.6-2.2 0-2-2-5-5-5z"/></svg></span><span class="m-jt"><b><span data-i18n="m.j1">Walk my dog (Labrador)</span></b><small><svg class="m-tiny" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="m.j1w">Today 18:30 · Drosia</span></small></span><span class="m-jp"><b>€10</b><small>0.8 km</small></span></div>
+    <div class="m-job"><span class="m-jic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4l6 6-3 3-6-6z"/><path d="M11 7L4 14a2 2 0 003 3l7-7"/></svg></span><span class="m-jt"><b><span data-i18n="m.j2">Fix a kitchen shelf</span></b><small><svg class="m-tiny" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="m.j2w">Sat 10:00 · Aradippou</span></small></span><span class="m-jp"><b>€15</b><small>2.1 km</small></span></div>
+    <div class="m-job"><span class="m-jic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19l8-8"/></svg></span><span class="m-jt"><b><span data-i18n="m.j3">Garden tidy-up</span></b><small><svg class="m-tiny" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="m.j3w">Sun 09:00 · Livadia</span></small></span><span class="m-jp"><b>€25</b><small>3.4 km</small></span></div>
+    <div class="m-toast"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><span><b><span data-i18n="m.offer">Andreas K. requested €15</span></b><small><span data-i18n="m.offer2">Tap to accept, counter or decline</span></small></span></div>
+  </div>
+  <div class="m-tabs"><span class="on"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg></span><span><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><span><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg></span><span><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></span><span><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4.5-6 8-6s7 2 8 6"/></svg></span></div>
+</div></div></div>
+</div></section>
+
+<section class="facts"><div class="wrap"><div class="facts-in">
+  <div class="fact"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0114 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div><b>3</b><span><span data-i18n="facts.cities">cities to start</span></span></div></div>
+  <div class="fact"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg></span><div><b>9</b><span><span data-i18n="facts.cats">kinds of jobs</span></span></div></div>
+  <div class="fact"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></span><div><b>4</b><span><span data-i18n="facts.langs">languages</span></span></div></div>
+  <div class="fact"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg></span><div><b><span data-i18n="facts.freeN">€0</span></b><span><span data-i18n="facts.free">to post a job</span></span></div></div>
+</div></div></section>
+
+<section class="sec" id="how"><div class="wrap">
+  <p class="eyebrow"><span data-i18n="how.eyebrow">How it works</span></p><h2><span data-i18n="how.h2">Two ways to use Doulia</span></h2>
+  <div class="two">
+    <div class="card"><h3><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg><span data-i18n="how.need">Need a hand?</span></h3><ol class="steps"><li><span class="num">1</span><div><h4><span data-i18n="how.need1t">Post a job in a minute</span></h4><p><span data-i18n="how.need1">Say what, when and where, add a photo and your price. Posting is free.</span></p></div></li><li><span class="num">2</span><div><h4><span data-i18n="how.need2t">Choose your helper</span></h4><p><span data-i18n="how.need2">See profiles, reviews, levels and verified IDs. Accept their price or make a counter offer.</span></p></div></li><li><span class="num">3</span><div><h4><span data-i18n="how.need3t">Done, paid, reviewed</span></h4><p><span data-i18n="how.need3">Confirm the job, pay your helper directly and leave a review.</span></p></div></li></ol></div>
+    <div class="card accent"><h3><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg><span data-i18n="how.earn">Want to earn?</span></h3><ol class="steps"><li><span class="num">1</span><div><h4><span data-i18n="how.earn1t">Find jobs near you</span></h4><p><span data-i18n="how.earn1">Browse by category and distance, or get an alert when a job you like is posted.</span></p></div></li><li><span class="num">2</span><div><h4><span data-i18n="how.earn2t">Request, or suggest your price</span></h4><p><span data-i18n="how.earn2">Apply at the posted price, or offer a different one if the job needs more time.</span></p></div></li><li><span class="num">3</span><div><h4><span data-i18n="how.earn3t">Get paid, grow your level</span></h4><p><span data-i18n="how.earn3">Keep 100% of what clients pay you. Reviews and achievements help you get chosen.</span></p></div></li></ol></div>
+  </div>
+</div></section>
+
+<section class="sec alt" id="jobs"><div class="wrap">
+  <p class="eyebrow"><span data-i18n="cats.eyebrow">Jobs on Doulia</span></p><h2><span data-i18n="cats.h2">From a quick errand to a Saturday move</span></h2>
+  <div class="grid cats"><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="10" r="2"/><circle cx="17" cy="10" r="2"/><circle cx="10" cy="6" r="2"/><circle cx="14" cy="6" r="2"/><path d="M12 12c-3 0-5 3-5 5 0 1.5 1.2 2.5 2.6 2.2l2.4-.5 2.4.5c1.4.3 2.6-.7 2.6-2.2 0-2-2-5-5-5z"/></svg></span><div><b><span data-i18n="cat.Pets">Pets</span></b><small><span data-i18n="cat.Pets.s">Walks, feeding, pet sitting</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5L12 3l9 4.5v9L12 21l-9-4.5z"/><path d="M3 7.5L12 12l9-4.5M12 12v9"/></svg></span><div><b><span data-i18n="cat.Moving">Moving</span></b><small><span data-i18n="cat.Moving.s">Boxes, furniture, a van</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg></span><div><b><span data-i18n="cat.Errands">Errands</span></b><small><span data-i18n="cat.Errands.s">Shopping, queues, pick-ups</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="16" r="3.5"/><circle cx="18" cy="16" r="3.5"/><path d="M6 16l4-7h5l3 7M10 9l-1.5-3H6M15 9l-2 7"/></svg></span><div><b><span data-i18n="cat.Delivery">Delivery</span></b><small><span data-i18n="cat.Delivery.s">Across town, same day</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/></svg></span><div><b><span data-i18n="cat.Cleaning">Cleaning</span></b><small><span data-i18n="cat.Cleaning.s">Homes, balconies, cars</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19l8-8"/></svg></span><div><b><span data-i18n="cat.Garden">Garden</span></b><small><span data-i18n="cat.Garden.s">Weeding, watering, hedges</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4l6 6-3 3-6-6z"/><path d="M11 7L4 14a2 2 0 003 3l7-7"/></svg></span><div><b><span data-i18n="cat.Repairs">Repairs</span></b><small><span data-i18n="cat.Repairs.s">Shelves, taps, flat-pack</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></span><div><b><span data-i18n="cat.Tech">Tech help</span></b><small><span data-i18n="cat.Tech.s">Phones, Wi-Fi, set-ups</span></small></div></div><div class="cat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/></svg></span><div><b><span data-i18n="cat.Other">Anything else</span></b><small><span data-i18n="cat.Other.s">If it's legal and fair</span></small></div></div></div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <p class="eyebrow"><span data-i18n="feat.eyebrow">Made for Cyprus</span></p><h2><span data-i18n="feat.h2">Everything you need, nothing you don't</span></h2>
+  <div class="grid feats"><div class="feat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg></span><b><span data-i18n="f1t">Price offers</span></b><p><span data-i18n="f1">Helpers can suggest a price; you accept, counter or decline.</span></p></div><div class="feat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></span><b><span data-i18n="f2t">Chat in the app</span></b><p><span data-i18n="f2">Agree the details without sharing your number.</span></p></div><div class="feat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><b><span data-i18n="f3t">Verified ID badge</span></b><p><span data-i18n="f3">See who has had their photo ID checked by our team.</span></p></div><div class="feat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg></span><b><span data-i18n="f4t">Reviews and levels</span></b><p><span data-i18n="f4">Honest reviews from real jobs, plus levels and achievements.</span></p></div><div class="feat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4z"/><path d="M10 20a2 2 0 004 0"/></svg></span><b><span data-i18n="f5t">Job alerts</span></b><p><span data-i18n="f5">Pick categories and an area; we tell you when a match is posted.</span></p></div><div class="feat"><span class="cic"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></span><b><span data-i18n="f6t">Your language</span></b><p><span data-i18n="f6">English, Greek, Russian and Arabic, with dark mode.</span></p></div></div>
+</div></section>
+
+<section class="sec alt" id="safety"><div class="wrap two safe">
+  <div><p class="eyebrow"><span data-i18n="safe.eyebrow">Safety first</span></p><h2><span data-i18n="safe.h2">Built so you can say yes with confidence</span></h2></div>
+  <ul class="checks"><li><span class="cic sm"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></span><span data-i18n="s1">Your exact address is shared only with the helper you choose.</span></li><li><span class="cic sm"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4h11l-2 4 2 4H5"/></svg></span><span data-i18n="s2">Report or block anyone, from their profile or the chat.</span></li><li><span class="cic sm"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><span data-i18n="s3">Our team reviews reports and problems with a job.</span></li><li><span class="cic sm"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4.5-6 8-6s7 2 8 6"/></svg></span><span data-i18n="s4">Everyone is 18+, and no-shows count against a profile.</span></li><li><span class="cic sm"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><span data-i18n="s5">No alcohol, tobacco, medicines, weapons or anything illegal.</span></li></ul>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="sec-head"><div><p class="eyebrow"><span data-i18n="cities.eyebrow">Where</span></p><h2><span data-i18n="cities.h2">Starting in three cities</span></h2></div><p class="sec-sub"><span data-i18n="cities.p">Post and find jobs in Nicosia, Limassol and Larnaca today. Paphos, Paralimni and more towns are next.</span></p></div>
+  <div class="cities"><div class="city"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0114 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div class="city-t"><b><span data-i18n="city.Nicosia">Nicosia</span></b><small><span data-i18n="dist.Nicosia">Nicosia district</span></small></div><span class="live"><i></i><span data-i18n="cities.live">Live</span></span></div><div class="city"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0114 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div class="city-t"><b><span data-i18n="city.Limassol">Limassol</span></b><small><span data-i18n="dist.Limassol">Limassol district</span></small></div><span class="live"><i></i><span data-i18n="cities.live">Live</span></span></div><div class="city"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0114 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div class="city-t"><b><span data-i18n="city.Larnaca">Larnaca</span></b><small><span data-i18n="dist.Larnaca">Larnaca district</span></small></div><span class="live"><i></i><span data-i18n="cities.live">Live</span></span></div>
+    <a class="city more" href="mailto:support@doulia.me"><span class="fic"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><div class="city-t"><b><span data-i18n="cities.more">More towns soon</span></b><small><span data-i18n="cities.more.s">Tell us where Doulia should go next</span></small></div></a></div>
+</div></section>
+
+<section class="sec alt" id="faq"><div class="wrap narrow">
+  <p class="eyebrow"><span data-i18n="faq.eyebrow">Questions</span></p><h2><span data-i18n="faq.h2">Good to know</span></h2>
+  <div class="faq"><details open><summary><span data-i18n="q1">Is Doulia free?</span></summary><p><span data-i18n="a1">Downloading Doulia and posting jobs is free. If a helper membership applies, the app always shows the price clearly before you pay anything, and your first job as a helper is free.</span></p></details><details><summary><span data-i18n="q2">How do payments work?</span></summary><p><span data-i18n="a2">You pay your helper directly, as agreed (cash or transfer). Doulia keeps track: the client taps "Yes, I paid", the helper confirms the money arrived, and the job is closed.</span></p></details><details><summary><span data-i18n="q3">Can I suggest a different price?</span></summary><p><span data-i18n="a3">Yes. Helpers can suggest a price when they apply, and the client can accept it, make a counter offer or decline.</span></p></details><details><summary><span data-i18n="q4">Who can use Doulia?</span></summary><p><span data-i18n="a4">Anyone aged 18 or over in the Republic of Cyprus, with one account per person.</span></p></details><details><summary><span data-i18n="q5">What if something goes wrong?</span></summary><p><span data-i18n="a5">Use "Report a problem" on the job. Our team reviews it and may contact you both. You can also block and report anyone at any time.</span></p></details></div>
+</div></section>
+
+<section class="cta" id="download"><div class="wrap cta-in">
+  <div class="cta-logo"><svg width="64" height="64" viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="24" fill="#0A6E8A"/><path d="M48 80c-12-14-22-24-22-38a22 22 0 0 1 44 0c0 14-10 24-22 38z" fill="#fff"/><path d="M38 42l7 7 13-14" fill="none" stroke="#0A6E8A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <h2><span data-i18n="cta.h2">Get Doulia today</span></h2><p><span data-i18n="cta.p">Out now on the App Store and Google Play. Post your first job in a minute, or start earning near you.</span></p><div class="stores">
+  <a class="store" href="#app-store" data-store="ios" aria-label="Download Doulia on the App Store">
+    <svg class="store-ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg><span class="store-txt"><small><span data-i18n="store.ios.small">Download on the</span></small><b><span data-i18n="store.ios.big">App Store</span></b></span></a>
+  <a class="store" href="#google-play" data-store="android" aria-label="Get Doulia on Google Play">
+    <svg class="store-ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span class="store-txt"><small><span data-i18n="store.and.small">Get it on</span></small><b><span data-i18n="store.and.big">Google Play</span></b></span></a>
+</div>
+</div></section>
+
+<footer class="foot"><div class="wrap foot-in">
+  <div class="foot-brand"><a class="brand" href="#top"><svg width="36" height="36" viewBox="0 0 96 96" aria-hidden="true"><rect width="96" height="96" rx="24" fill="#0A6E8A"/><path d="M48 80c-12-14-22-24-22-38a22 22 0 0 1 44 0c0 14-10 24-22 38z" fill="#fff"/><path d="M38 42l7 7 13-14" fill="none" stroke="#0A6E8A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>doulia<em>.me</em></span></a><p><span data-i18n="foot.tag">Small jobs, done by people nearby.</span></p></div>
+  <nav class="foot-links" aria-label="Footer"><a href="terms.html"><span data-i18n="foot.terms">Terms of Use</span></a><a href="privacy.html"><span data-i18n="foot.privacy">Privacy Policy</span></a><a href="mailto:support@doulia.me"><span data-i18n="foot.contact">Contact</span></a></nav>
+  <p class="copy"><span data-i18n="foot.copy">© 2026 Doulia · Made in Cyprus</span></p>
+</div></footer>
+</div>
+<script>
+(function(){
+  var T = {"nav.how": ["How it works", "Πώς λειτουργεί"], "nav.earn": ["Earn", "Κερδίστε"], "nav.safety": ["Safety", "Ασφάλεια"], "nav.faq": ["FAQ", "Ερωτήσεις"], "nav.get": ["Get the app", "Λήψη εφαρμογής"], "hero.pill": ["Now on iPhone & Android", "Τώρα σε iPhone & Android"], "hero.h1": ["Small jobs, done by people nearby.", "Μικρές δουλειές, από ανθρώπους κοντά σας."], "hero.p": ["Doulia connects people in Cyprus who need a hand with people who want to earn. Dog walks, moving boxes, garden tidy-ups, small repairs and more, agreed and done in your neighbourhood.", "Το Doulia φέρνει κοντά ανθρώπους στην Κύπρο που χρειάζονται ένα χέρι βοήθειας με ανθρώπους που θέλουν να κερδίσουν. Βόλτα σκύλου, μεταφορές, κήπος, μικροεπισκευές και πολλά άλλα, στη γειτονιά σας."], "store.ios.small": ["Download on the", "Κατεβάστε από το"], "store.ios.big": ["App Store", "App Store"], "store.and.small": ["Get it on", "Διαθέσιμο στο"], "store.and.big": ["Google Play", "Google Play"], "hero.note": ["Free to download · English, Ελληνικά, Русский, العربية", "Δωρεάν λήψη · English, Ελληνικά, Русский, العربية"], "facts.cities": ["cities to start", "πόλεις για αρχή"], "facts.cats": ["kinds of jobs", "είδη εργασιών"], "facts.langs": ["languages", "γλώσσες"], "facts.free": ["to post a job", "για ανάρτηση εργασίας"], "facts.freeN": ["€0", "€0"], "how.eyebrow": ["How it works", "Πώς λειτουργεί"], "how.h2": ["Two ways to use Doulia", "Δύο τρόποι να χρησιμοποιήσετε το Doulia"], "how.need": ["Need a hand?", "Χρειάζεστε βοήθεια;"], "how.need1t": ["Post a job in a minute", "Αναρτήστε σε ένα λεπτό"], "how.need1": ["Say what, when and where, add a photo and your price. Posting is free.", "Πείτε τι, πότε και πού, προσθέστε φωτογραφία και τιμή. Η ανάρτηση είναι δωρεάν."], "how.need2t": ["Choose your helper", "Επιλέξτε βοηθό"], "how.need2": ["See profiles, reviews, levels and verified IDs. Accept their price or make a counter offer.", "Δείτε προφίλ, αξιολογήσεις, επίπεδα και επαληθευμένη ταυτότητα. Αποδεχτείτε την τιμή τους ή κάντε αντιπρόταση."], "how.need3t": ["Done, paid, reviewed", "Ολοκληρώθηκε, πληρώθηκε"], "how.need3": ["Confirm the job, pay your helper directly and leave a review.", "Επιβεβαιώστε την εργασία, πληρώστε απευθείας τον βοηθό και αφήστε αξιολόγηση."], "how.earn": ["Want to earn?", "Θέλετε να κερδίσετε;"], "how.earn1t": ["Find jobs near you", "Βρείτε εργασίες κοντά σας"], "how.earn1": ["Browse by category and distance, or get an alert when a job you like is posted.", "Δείτε ανά κατηγορία και απόσταση ή λάβετε ειδοποίηση για εργασίες που σας ενδιαφέρουν."], "how.earn2t": ["Request, or suggest your price", "Αίτηση ή δική σας τιμή"], "how.earn2": ["Apply at the posted price, or offer a different one if the job needs more time.", "Κάντε αίτηση στην τιμή που δόθηκε ή προτείνετε άλλη, αν η δουλειά θέλει περισσότερο χρόνο."], "how.earn3t": ["Get paid, grow your level", "Πληρωθείτε, ανεβείτε επίπεδο"], "how.earn3": ["Keep 100% of what clients pay you. Reviews and achievements help you get chosen.", "Κρατάτε το 100% της αμοιβής σας. Οι αξιολογήσεις και τα επιτεύγματα σας βοηθούν να επιλέγεστε."], "cats.eyebrow": ["Jobs on Doulia", "Εργασίες στο Doulia"], "cats.h2": ["From a quick errand to a Saturday move", "Από ένα γρήγορο θέλημα μέχρι μια μετακόμιση"], "cat.Pets": ["Pets", "Κατοικίδια"], "cat.Moving": ["Moving", "Μετακόμιση"], "cat.Errands": ["Errands", "Θελήματα"], "cat.Delivery": ["Delivery", "Παραδόσεις"], "cat.Cleaning": ["Cleaning", "Καθαριότητα"], "cat.Garden": ["Garden", "Κήπος"], "cat.Repairs": ["Repairs", "Επισκευές"], "cat.Tech": ["Tech help", "Τεχνολογία"], "cat.Other": ["Anything else", "Οτιδήποτε άλλο"], "cat.Pets.s": ["Walks, feeding, pet sitting", "Βόλτες, τάισμα, φύλαξη"], "cat.Moving.s": ["Boxes, furniture, a van", "Κούτες, έπιπλα, φορτηγάκι"], "cat.Errands.s": ["Shopping, queues, pick-ups", "Ψώνια, ουρές, παραλαβές"], "cat.Delivery.s": ["Across town, same day", "Στην πόλη, αυθημερόν"], "cat.Cleaning.s": ["Homes, balconies, cars", "Σπίτια, μπαλκόνια, αυτοκίνητα"], "cat.Garden.s": ["Weeding, watering, hedges", "Ξεχόρτιασμα, πότισμα, φράχτες"], "cat.Repairs.s": ["Shelves, taps, flat-pack", "Ράφια, βρύσες, συναρμολόγηση"], "cat.Tech.s": ["Phones, Wi-Fi, set-ups", "Κινητά, Wi-Fi, ρυθμίσεις"], "cat.Other.s": ["If it's legal and fair", "Αρκεί να είναι νόμιμο και δίκαιο"], "feat.eyebrow": ["Made for Cyprus", "Φτιαγμένο για την Κύπρο"], "feat.h2": ["Everything you need, nothing you don't", "Ό,τι χρειάζεστε, τίποτα περιττό"], "f1t": ["Price offers", "Προσφορές τιμής"], "f1": ["Helpers can suggest a price; you accept, counter or decline.", "Οι βοηθοί προτείνουν τιμή· εσείς αποδέχεστε, κάνετε αντιπρόταση ή απορρίπτετε."], "f2t": ["Chat in the app", "Συνομιλία στην εφαρμογή"], "f2": ["Agree the details without sharing your number.", "Συμφωνήστε τις λεπτομέρειες χωρίς να δώσετε τον αριθμό σας."], "f3t": ["Verified ID badge", "Σήμα επαλήθευσης"], "f3": ["See who has had their photo ID checked by our team.", "Δείτε ποιοι έχουν ελεγχθεί με φωτογραφία ταυτότητας."], "f4t": ["Reviews and levels", "Αξιολογήσεις και επίπεδα"], "f4": ["Honest reviews from real jobs, plus levels and achievements.", "Ειλικρινείς αξιολογήσεις από πραγματικές εργασίες, επίπεδα και επιτεύγματα."], "f5t": ["Job alerts", "Ειδοποιήσεις εργασιών"], "f5": ["Pick categories and an area; we tell you when a match is posted.", "Διαλέξτε κατηγορίες και περιοχή· σας ειδοποιούμε για νέες εργασίες."], "f6t": ["Your language", "Η γλώσσα σας"], "f6": ["English, Greek, Russian and Arabic, with dark mode.", "Αγγλικά, ελληνικά, ρωσικά και αραβικά, με σκούρο θέμα."], "safe.eyebrow": ["Safety first", "Πρώτα η ασφάλεια"], "safe.h2": ["Built so you can say yes with confidence", "Φτιαγμένο για να λέτε «ναι» με σιγουριά"], "s1": ["Your exact address is shared only with the helper you choose.", "Η ακριβής διεύθυνσή σας φαίνεται μόνο στον βοηθό που επιλέγετε."], "s2": ["Report or block anyone, from their profile or the chat.", "Αναφέρετε ή αποκλείστε οποιονδήποτε, από το προφίλ ή τη συνομιλία."], "s3": ["Our team reviews reports and problems with a job.", "Η ομάδα μας εξετάζει αναφορές και προβλήματα με εργασίες."], "s4": ["Everyone is 18+, and no-shows count against a profile.", "Όλοι είναι 18+, και η μη εμφάνιση μετρά αρνητικά στο προφίλ."], "s5": ["No alcohol, tobacco, medicines, weapons or anything illegal.", "Χωρίς αλκοόλ, καπνό, φάρμακα, όπλα ή οτιδήποτε παράνομο."], "cities.eyebrow": ["Where", "Πού"], "cities.h2": ["Starting in three cities", "Ξεκινάμε σε τρεις πόλεις"], "cities.p": ["Post and find jobs in Nicosia, Limassol and Larnaca today. Paphos, Paralimni and more towns are next.", "Αναρτήστε και βρείτε εργασίες σε Λευκωσία, Λεμεσό και Λάρνακα από σήμερα. Ακολουθούν Πάφος, Παραλίμνι και άλλες περιοχές."], "cities.live": ["Live", "Ενεργό"], "dist.Nicosia": ["Nicosia district", "Επαρχία Λευκωσίας"], "dist.Limassol": ["Limassol district", "Επαρχία Λεμεσού"], "dist.Larnaca": ["Larnaca district", "Επαρχία Λάρνακας"], "dist.Paphos": ["Paphos district", "Επαρχία Πάφου"], "dist.Paralimni": ["Famagusta district", "Επαρχία Αμμοχώστου"], "cities.more": ["More towns soon", "Σύντομα και αλλού"], "cities.more.s": ["Tell us where Doulia should go next", "Πείτε μας πού να πάμε στη συνέχεια"], "city.Nicosia": ["Nicosia", "Λευκωσία"], "city.Limassol": ["Limassol", "Λεμεσός"], "city.Larnaca": ["Larnaca", "Λάρνακα"], "city.Paphos": ["Paphos", "Πάφος"], "city.Paralimni": ["Paralimni", "Παραλίμνι"], "faq.eyebrow": ["Questions", "Ερωτήσεις"], "faq.h2": ["Good to know", "Καλό να ξέρετε"], "q1": ["Is Doulia free?", "Είναι δωρεάν το Doulia;"], "a1": ["Downloading Doulia and posting jobs is free. If a helper membership applies, the app always shows the price clearly before you pay anything, and your first job as a helper is free.", "Η λήψη του Doulia και η ανάρτηση εργασιών είναι δωρεάν. Αν ισχύει συνδρομή βοηθού, η εφαρμογή δείχνει πάντα καθαρά την τιμή πριν πληρώσετε οτιδήποτε, και η πρώτη σας εργασία ως βοηθός είναι δωρεάν."], "q2": ["How do payments work?", "Πώς γίνεται η πληρωμή;"], "a2": ["You pay your helper directly, as agreed (cash or transfer). Doulia keeps track: the client taps \"Yes, I paid\", the helper confirms the money arrived, and the job is closed.", "Πληρώνετε απευθείας τον βοηθό, όπως συμφωνήσατε (μετρητά ή μεταφορά). Το Doulia καταγράφει: ο πελάτης πατά «Ναι, πλήρωσα», ο βοηθός επιβεβαιώνει ότι έλαβε τα χρήματα και η εργασία κλείνει."], "q3": ["Can I suggest a different price?", "Μπορώ να προτείνω άλλη τιμή;"], "a3": ["Yes. Helpers can suggest a price when they apply, and the client can accept it, make a counter offer or decline.", "Ναι. Οι βοηθοί προτείνουν τιμή όταν κάνουν αίτηση και ο πελάτης μπορεί να την αποδεχτεί, να κάνει αντιπρόταση ή να την απορρίψει."], "q4": ["Who can use Doulia?", "Ποιος μπορεί να χρησιμοποιήσει το Doulia;"], "a4": ["Anyone aged 18 or over in the Republic of Cyprus, with one account per person.", "Οποιοσδήποτε άνω των 18 στην Κυπριακή Δημοκρατία, με έναν λογαριασμό ανά άτομο."], "q5": ["What if something goes wrong?", "Τι γίνεται αν κάτι πάει στραβά;"], "a5": ["Use \"Report a problem\" on the job. Our team reviews it and may contact you both. You can also block and report anyone at any time.", "Πατήστε «Αναφορά προβλήματος» στην εργασία. Η ομάδα μας το εξετάζει και μπορεί να επικοινωνήσει μαζί σας. Μπορείτε επίσης να αποκλείσετε και να αναφέρετε οποιονδήποτε."], "cta.h2": ["Get Doulia today", "Κατεβάστε το Doulia σήμερα"], "cta.p": ["Out now on the App Store and Google Play. Post your first job in a minute, or start earning near you.", "Διαθέσιμο τώρα στο App Store και το Google Play. Αναρτήστε την πρώτη σας εργασία ή ξεκινήστε να κερδίζετε κοντά σας."], "foot.tag": ["Small jobs, done by people nearby.", "Μικρές δουλειές, από ανθρώπους κοντά σας."], "foot.terms": ["Terms of Use", "Όροι χρήσης"], "foot.privacy": ["Privacy Policy", "Πολιτική απορρήτου"], "foot.contact": ["Contact", "Επικοινωνία"], "foot.copy": ["© 2026 Doulia · Made in Cyprus", "© 2026 Doulia · Φτιαγμένο στην Κύπρο"], "m.hello": ["Hi Andreas 👋", "Γεια σου Andreas 👋"], "m.city": ["Larnaca", "Λάρνακα"], "m.search": ["Search jobs", "Αναζήτηση εργασιών"], "m.near": ["Near you", "Κοντά σας"], "m.j1": ["Walk my dog (Labrador)", "Βόλτα στον σκύλο μου"], "m.j1w": ["Today 18:30 · Drosia", "Σήμερα 18:30 · Δροσιά"], "m.j2": ["Fix a kitchen shelf", "Επισκευή ραφιού κουζίνας"], "m.j2w": ["Sat 10:00 · Aradippou", "Σάβ 10:00 · Αραδίππου"], "m.j3": ["Garden tidy-up", "Τακτοποίηση κήπου"], "m.j3w": ["Sun 09:00 · Livadia", "Κυρ 09:00 · Λιβάδια"], "m.offer": ["Andreas K. requested €15", "Ο Andreas K. ζήτησε €15"], "m.offer2": ["Tap to accept, counter or decline", "Πατήστε για αποδοχή ή αντιπρόταση"]};
+  var root = document.currentScript ? document.currentScript.closest('.site') || document : document;
+  function setLang(l){
+    var i = l === 'el' ? 1 : 0;
+    root.querySelectorAll('[data-i18n]').forEach(function(el){ var v = T[el.getAttribute('data-i18n')]; if (v) el.textContent = v[i]; });
+    root.querySelectorAll('[data-lang-block]').forEach(function(el){ el.hidden = el.getAttribute('data-lang-block') !== l; });
+    root.querySelectorAll('[data-lang]').forEach(function(b){ var on = b.getAttribute('data-lang') === l; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    document.documentElement.lang = l;
+    try { localStorage.setItem('doulia-lang', l); } catch (e) {}
+  }
+  root.querySelectorAll('[data-lang]').forEach(function(b){ b.addEventListener('click', function(){ setLang(b.getAttribute('data-lang')); }); });
+  var saved = null;
+  try { saved = localStorage.getItem('doulia-lang'); } catch (e) {}
+  var nav = (navigator.language || '').toLowerCase();
+  setLang(saved || (nav.indexOf('el') === 0 ? 'el' : 'en'));
+})();
+</script>
+</body>
+</html>
